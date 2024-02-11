@@ -1,2 +1,2 @@
 # fitness-website
-This is a fitness site landing page with convincing feature
+This is a fitness site landing page with convincing features
