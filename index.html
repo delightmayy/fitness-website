@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>delight-fitness</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="/fitness.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <style>
+      .nav-item,
+      .nav-link,
+      .dropdown-item,
+      .dropdown-menu {
+        color: whitesmoke;
+        font-weight: 600;
+      }
+      .nav-item:hover,
+      .nav-link:hover,
+      .dropdown-item:hover,
+      .dropdown-menu:hover {
+        color: brown;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body style="background-color: #292927">
+    <section class="hero">
+      <div
+        class="container p-3"
+        style="
+          background-image: url(/images/personaltrainer3-section-bg1.webp);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position-x: center;
+          background-position-y: top;
+        "
+      >
+        <header class="header p-3">
+          <div class="container-sm text-danger mb-3 position-relative">
+            <div class="row">
+              <div class="col-sm-6 p-2">
+                <img
+                  src="https://beantown.website/html/be/html/content/personaltrainer3/images/personaltrainer3.svg"
+                  alt="delight-ftiness logo"
+                  srcset=""
+                />
+              </div>
+              <div class="col-sm-6 text-end">
+                <nav
+                  class="navbar navbar-expand-lg bg-body-dark"
+                  data-bs-theme="dark"
+                >
+                  <div class="container-fluid">
+                    <p></p>
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse justify-content=around"
+                      id="navbarSupportedContent"
+                    >
+                      <ul
+                        class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute rounded text-center mt-3"
+                        style="width: 100%; background-color: #292927"
+                      >
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#"
+                            >Home</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Goals</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Effects</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                          >
+                            Plans
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Basic Fitness</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">
+                                Weight Watch</a
+                              >
+                            </li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Body Building</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="row my-5">
+          <div class="row py-3">
+            <div class="col-sm-8 text-light h5 text-uppercase">
+              hi, i'm Delight
+            </div>
+            <div class="col-sm-4 text-center">
+              <i class="bi bi-quote fs-2 text-danger"></i>
+            </div>
+          </div>
+          <div class="row pb-5">
+            <div
+              class="col-sm-9 col-lg-10 fs-1 h1 text-uppercase lh-3"
+              style="color: #fc5830"
+            >
+              YOUR PERSONAL TRAINER
+            </div>
+            <div class="col-sm-3 col-lg-2 text-start text-light">
+              Eget elit phasellus vel, tortor, donec. Nulla diam fusce duis
+              platea.
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <hr class="hr border bg-dark" />
+
+          <div class="col-md-6 py-5">
+            <div class="row text-light py-3">
+              <p class="col h6 lh-3" style="font-weight: 300">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab
+                distinctio eos fugiat, earum numquam ratione commodi doloremque
+                mollitia unde debitis, nam cum dolorum odio sunt accusamus est
+                ex? Maxime, accusamus?
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-6 text-center text-sm-start py-2">
+                <button
+                  type="button"
+                  class="btn text-light text-uppercase"
+                  style="background-color: black"
+                >
+                  <small>see my plans</small>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 text-light mt-3">
+            <div class="row text-center d-flex justify-content-evenly">
+              <div class="col-md-4 card my-3 border-md-light bg-dark">
+                <img src="" alt="" class="card-img-top" />
+                <p class="card-body text-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="col-md-4 card my-3 border-md-light bg-dark">
+                <img src="" alt="" class="card-img-top" />
+                <p class="card-body text-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" style="background-color: #222221">
+      <div
+        class="container"
+        style="
+          background-image: url(/images/personaltrainer3-section-bg2.webp);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position-x: left;
+          background-position-y: top;
+        "
+      >
+        <div
+          class="row text-capitalize align-items-center"
+          style="color: #595959; min-height: 30%"
+        >
+          <p class="col-8 display-1 fw-1">
+            what is your <span class="text-light">goal?</span>
+          </p>
+        </div>
+
+        <div
+          class="row text-light text-center mx-sm-auto justify-content-evenly align-items-center"
+        >
+          <div
+            id="optt"
+            class="col-sm-9 col-md-3 rounded my-5 d-flex align-items-end justify-content-evenly"
+            style="
+              background-image: url(/images/personaltrainer3-pic1a.webp);
+              background-position: center;
+              background-size: cover;
+              height: 450px;
+            "
+          >
+            <div class="row my-5"></div>
+            <div class="row align-items-center">
+              <div class="col p-5">
+                <div class="row">
+                  <div class="col text-uppercase">
+                    <span class="text-danger border-bottom border-danger"
+                      >be</span
+                    >
+                    slim
+                  </div>
+                </div>
+                <div class="row text-center text-capitalize display-2">
+                  <div class="col">weight loss</div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button
+                      type="button"
+                      class="btn bg-dark text-capitalize text-light mt-3"
+                    >
+                      see my plans
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="optt2"
+            class="col-sm-9 col-md-3 rounded my-5 d-flex align-items-end justify-content-evenly"
+            style="
+              background-image: url(/images/personaltrainer3-pic2a.webp);
+              background-position: center;
+              background-size: cover;
+              height: 450px;
+            "
+          >
+            <div class="row my-5"></div>
+            <div class="row align-items-center">
+              <div class="col p-5">
+                <div class="row">
+                  <div class="col text-uppercase">
+                    <span class="text-danger border-bottom border-danger"
+                      >be</span
+                    >
+                    sturdy
+                  </div>
+                </div>
+                <div class="row text-center text-capitalize display-2">
+                  <div class="col">health status</div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button
+                      type="button"
+                      class="btn bg-dark text-capitalize text-light mt-3"
+                    >
+                      see my plans
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="optt3"
+            class="col-sm-9 col-md-3 rounded my-5 d-flex align-items-end justify-content-evenly"
+            style="
+              background-image: url(/images/personaltrainer3-pic3a.webp);
+              background-position: center;
+              background-size: cover;
+              height: 450px;
+            "
+          >
+            <div class="row my-5"></div>
+            <div class="row align-items-center">
+              <div class="col p-5">
+                <div class="row">
+                  <div class="col text-uppercase">
+                    <span class="text-danger border-bottom border-danger"
+                      >be</span
+                    >
+                    huge
+                  </div>
+                </div>
+                <div class="row text-center text-capitalize display-2">
+                  <div class="col">body buiding</div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button
+                      type="button"
+                      class="btn bg-dark text-capitalize text-light mt-3"
+                    >
+                      see my plans
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <div class="container-sm my-5">
+        <div class="row rounded">
+          <div
+            class="col-sm-12 rounded"
+            style="
+              background-image: url(/images/personaltrainer3-wrap-bg1.webp);
+              background-position: center;
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-color: #f0f8ff91;
+            "
+          >
+            <p class="display-2 text-capitalize text-light fw-1">
+              <span class="text-secondary">ready for</span> progress?
+            </p>
+            <p class="p-2 h5 text-capitalize text-light">weight loss example</p>
+            <p class="p-2 h4 text-capitalize text-end text-light">+40%</p>
+            <img
+              src="/images/personaltrainer3-diagram.svg"
+              alt="activity chart "
+              class="img-fluid rounded"
+            />
+            <p class="p-2 h6 text-capitalize" style="color: rgb(206, 205, 203)">
+              Aliquet proin magna nisi diam. Phasellus etiam sit odio at aenean.
+              Aliquet tempor tristique erat tempor, quisque in amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row" style="background-color: #292927">
+        <div
+          class="col-sm-12 p-5"
+          style="
+            background-image: url(/images/personaltrainer3-section-bg3.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+          "
+        >
+          <div class="row p-5 " style="min-height:500px"></div>
+          <div class="row">
+            <div class="col-md-6 text-light g-3">
+              <div class="row ">
+                <div class="col p-2">
+                  <p class=" text-uppercase h1 text-danger" >john turker</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col h6 ">
+                  At id tellus, proin magna leo, morbi mauris, enim pulvinar.
+                  Sit pellentesque sem nunc pellentesque. Rhoncus aliquam sit
+                  nulla dolor cras scelerisque. Dolor scelerisque dictum
+                  scelerisque posuere egestas. In phasellus consequat odio quis
+                  at. Ornare.
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="col-4  ">follow me</div>
+                <div class="col-8">
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer"></footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
