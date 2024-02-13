@@ -1,2 +1,4 @@
 # fitness-website
-This is a fitness site landing page with convincing features
+Hi there, check out my fitness site landing page ...
+built with js, html and bootstrap css.
+happy viewing https://delight-fitness.netlify.app/
